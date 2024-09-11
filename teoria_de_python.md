@@ -1,6 +1,9 @@
 # Anotações - Estudos - Conteúdos sobre python
 
 ## Estruturas Condicionais em Python
+1. Operadores relacionais;
+2. Estruturas lógicas;
+3. estruturas condicionais if, else, elif. 
 
 ## Operadores relacionais
 
@@ -14,3 +17,6 @@
 |!=|Diferente|
 |is|Identidade do objeto|
 |is not|Negação da identidade do objeto|
+
+---
+
