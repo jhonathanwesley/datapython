@@ -40,8 +40,7 @@ Listas ordenadas:
 Código Inline: `código`
 
 9. Tabelas
-markdown
-Copiar código
+
 | Cabeçalho 1 | Cabeçalho 2 |
 |-------------|-------------|
 | Linha 1, Col 1 | Linha 1, Col 2 |
