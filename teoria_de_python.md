@@ -1,6 +1,6 @@
 # Anotações - Estudos - Conteúdos sobre python
 
-##Estruturas Condicionais em Python
+## Estruturas Condicionais em Python
 
 ## Operadores relacionais
 
