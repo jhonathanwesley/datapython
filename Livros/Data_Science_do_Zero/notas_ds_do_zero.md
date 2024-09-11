@@ -16,3 +16,8 @@
  * É gratuito.
  * É relativamente simples de codificar (e, o principal, de entender).
  * Possui muitas bibliotecas úteis relacionadas ao data science.
+
+***
+
+> Repositório do AUTOR citado no livro e usado, contendo materiais, etc.
+[GitHub](https://github.com/joelgrus/data-science-from-scratch/tree/master)
