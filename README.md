@@ -13,3 +13,5 @@
 2. Controle e organização de fluxo de estudos para revisão espaçada
 3. Plano de carreira
 4. Organizar a escalada de conteúdos para uma curva de aprendizado constante com foco em saber resolver `Mercado de Trabalho e aplicações práticas`
+
+## Aqui estou usando como um repositório para estudos, planejo desenvolver projetos para aprendizado, centralizar muitos materiais de estudos e anotações para ser um repositório de conhecimento
