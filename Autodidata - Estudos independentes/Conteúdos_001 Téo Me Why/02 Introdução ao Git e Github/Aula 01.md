@@ -17,3 +17,14 @@
 - Como trabalhar com muitos constribuidores?
 - Como distribuir?
 ---
+
+### Git é um software
+* Serve para gerenciamento de versão para arquivos de texto no computador.
+* Criado por Linus Torvalds para melhorar o trabalho colaborativo em torno do Kernel do Linux.
+* É **_Open-Source_** e poder ser instalado em qualquer sistema operacional.
+
+> O Git permite criar **CHECKPOINTS** nos nossos projetos, para poder voltar em momentos anteriores a uma escolha, a um "nó" de código
+
+## Comandos
+
+1. pwd -> Mostra onde você está
