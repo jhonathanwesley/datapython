@@ -61,3 +61,6 @@ ___
 
 12. Escapando Caracteres
 Use \ antes de caracteres especiais para mostrar como texto: \*não será itálico\*
+
+# Uma documentação do Github mais completa sobre o Markdown suportado
+[Markdown Github](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
