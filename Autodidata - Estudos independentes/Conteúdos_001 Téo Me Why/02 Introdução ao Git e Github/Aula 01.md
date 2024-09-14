@@ -32,10 +32,27 @@
 
 * Bash permite falar diretamente com o sistema
 
-1. pwd -> Mostra onde o terminal/você está
-2. ls -> Mostra o que tem dentro do diretório/listar pastas e erquivos contidos no diretório
-3. cd -> Ir para os diretórios, pastas, arquivos, navegar nos arquivos via comandos
-  1. cd OneDrive [Vai para a pasta OneDrive]
-  2. cd .. [Volta uma pasta|diretório]
-  3. cd ~ [Volta para a pasta raíz, pasta|diretório inicial]
-  4. Após o 'cd', ao começar a escrever o nome de alguma pasta ou diretório pode ser usada a tecla `Tab` para autocomplete das pastas|diretórios
+1. `pwd` -> Mostra onde o terminal/você está
+2. `ls` -> Mostra o que tem dentro do diretório/listar pastas e erquivos contidos no diretório
+3. `cd` -> Ir para os diretórios, pastas, arquivos, navegar nos arquivos via comandos
+  1. `cd` OneDrive [Vai para a pasta OneDrive]
+  2. `cd` .. [Volta uma pasta|diretório]
+  3. `cd ~` [Volta para a pasta raíz, pasta|diretório inicial]
+  4. Após o `cd`, ao começar a escrever o nome de alguma pasta ou diretório pode ser usada a tecla `Tab` para autocomplete das pastas|diretórios
+---
+4. Como adicionar o versionamento no projeto | Como definir que ele será versionado pelo git:
+  1. `git init .`
+  2. `ls -a` -> Para mostrar todas as pastas (Incluindo as pastas ocultas)
+  > Dentro de toda pasta existem pastas ocultas, a pasta `.` referencia a própria pasta e a `..` referencia a pasta hierarquicamente superior a pasta atual
+
+5. `git status` -> Mostra a situação atual do seu projeto
+6. `git add <file name>` -> Seleciona o arquivo a ser salvo pelo git | Muda o arquivo do estado **UNSTAGED** para o estado **STAGED**
+7. `git commit -m` -> Efetua o commit do arquivo | Checkpoint do arquivo [O `-m` serve para deixar uma mensagem]
+  1. O `git commit` retornou um _'Author identity unknown'_, pediu uma identificação, pois é necessária uma identidade de autor para efetuar um `commit`
+  2. Run
+       git config --global user.email "you@example.com"
+       git config --global user.name "Your Name"
+       Só precisa ser definido uma vez, fica como identidade padrão
+---
+8. Agora, após realizar novamente o `git commit` o bash retorna o status atual do arquivo efetuado com sucesso
+9. `git log` -> Mostra os registros | histórico 
