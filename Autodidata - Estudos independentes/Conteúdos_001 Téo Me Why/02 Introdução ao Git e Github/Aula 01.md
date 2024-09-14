@@ -50,9 +50,9 @@
 7. `git commit -m` -> Efetua o commit do arquivo | Checkpoint do arquivo [O `-m` serve para deixar uma mensagem]
   1. O `git commit` retornou um _'Author identity unknown'_, pediu uma identificação, pois é necessária uma identidade de autor para efetuar um `commit`
   2. Run
-       git config --global user.email "you@example.com"
-       git config --global user.name "Your Name"
-       Só precisa ser definido uma vez, fica como identidade padrão
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+* Só precisa ser definido uma vez, fica como identidade padrão
 ---
 8. Agora, após realizar novamente o `git commit` o bash retorna o status atual do arquivo efetuado com sucesso
 9. `git log` -> Mostra os registros | histórico 
