@@ -60,3 +60,13 @@
 10. `git add .` -> Vai colocar todos os arquivos em **STAGED** para ser feito o `commit` (Tomar cuidado com ele, pois se houverem arquivos com informações sensíveis, eles serão enviados também)
 11. `git reset` -> Retorna os arquivos atuais colocados em **STAGED** para **UNSTAGED**
 12. `git reset idCommit` -> Retorna para o Pós-Commit
+
+## A **BRANCH** é uma ramificação do projeto principal
+
+* Você salva o seu seu projeto na BRANCH principal, mantendo o projeto no estado atual em que tudo está funcionando bem e rodando corretamente
+* Com as BRANCHS é possível criar ramificações do projeto no estado atual para editar, criar e rodar novos testes e funcionalidades e se der certo, aí sim adicionar isso ao projeto principal
+
+#### Comandos para trabalhar com a BRANCH
+
+1. `git branch` -> Mostra a branch atual
+2. `git checkout -b <nome>` -> Cria uma nova branch | É como uma cópia do projeto, um backup, essa nova ramificação permite mexer no projeto sem afetar o original 
