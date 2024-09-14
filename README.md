@@ -1,5 +1,5 @@
 # ___#datapython___
-*Projetos e Estudos em Python para Ciência de Dados*
+* Iniciou como um repositório para Projetos e Estudos em Python para Ciência de Dados, mas já contém conteúdos de SQL, Git e Github, dentre vários outros que aoinda podem vir e virão...*
 
 ### Iniciei minha graduação em Ciência de Dados e estou atuando como assistente de dados desde Agosto de 2024 na TXC.
 
