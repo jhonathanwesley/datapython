@@ -58,5 +58,5 @@
 8. Agora, após realizar novamente o `git commit` o bash retorna o status atual do arquivo efetuado com sucesso
 9. `git log` -> Mostra os registros | histórico dos commits
 10. `git add .` -> Vai colocar todos os arquivos em **STAGED** para ser feito o `commit` (Tomar cuidado com ele, pois se houverem arquivos com informações sensíveis, eles serão enviados também)
-11. `git reset` -> Retorna para **UNSTAGED**
+11. `git reset` -> Retorna os arquivos atuais colocados em **STAGED** para **UNSTAGED**
 12. `git reset idCommit` -> Retorna para o Pós-Commit
