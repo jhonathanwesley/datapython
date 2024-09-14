@@ -1,5 +1,6 @@
 # Git e GitHub
 #### Uma introdução à versionamento de código e trabalho colaborativo
+[Introdução - Aula 1: youtube.com](https://www.youtube.com/watch?v=napLViBKAtA&list=PLvlkVRRKOYFQ3cfYPjLeQ0KvrQ8bG5H11)
 
 ## Para que serve?
 ***
@@ -33,3 +34,8 @@
 
 1. pwd -> Mostra onde o terminal/você está
 2. ls -> Mostra o que tem dentro do diretório/listar pastas e erquivos contidos no diretório
+3. cd -> Ir para os diretórios, pastas, arquivos, navegar nos arquivos via comandos
+  1. cd OneDrive [Vai para a pasta OneDrive]
+  2. cd .. [Volta uma pasta|diretório]
+  3. cd ~ [Volta para a pasta raíz, pasta|diretório inicial]
+  4. Após o 'cd', ao começar a escrever o nome de alguma pasta ou diretório pode ser usada a tecla `Tab` para autocomplete das pastas|diretórios
