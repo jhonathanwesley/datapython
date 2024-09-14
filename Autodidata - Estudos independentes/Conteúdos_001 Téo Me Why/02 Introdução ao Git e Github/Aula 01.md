@@ -27,4 +27,9 @@
 
 ## Comandos
 
-1. pwd -> Mostra onde você está
+### Git Bash 
+
+* Bash permite falar diretamente com o sistema
+
+1. pwd -> Mostra onde o terminal/você está
+2. ls -> Mostra o que tem dentro do diretório/listar pastas e erquivos contidos no diretório
