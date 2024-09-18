@@ -3,6 +3,8 @@
 
 ### Iniciei minha graduação em Ciência de Dados e estou atuando como assistente de dados desde Agosto de 2024 na TXC.
 
+- Deixo o convite para que participe da minha rede no [LinkedIn](https://www.linkedin.com/in/jhonathanwesley/)
+
 **Tenho diversos estudos a fazer e planos para tocar, aliando teoria a prática para resolver problemas com Análise e Ciência de Dados**
 
 * Planejo estudar diversos assuntos de ciência de dados
