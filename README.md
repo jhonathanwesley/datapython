@@ -15,3 +15,9 @@
 4. Organizar a escalada de conteúdos para uma curva de aprendizado constante com foco em saber resolver `Mercado de Trabalho e aplicações práticas`
 
 ## Estou usando este repositório para estudos, planejo desenvolver projetos para aprendizado, centralizar muitos materiais de estudos, fazer anotações e tornar isso um repositório de conhecimento acumulado.
+
+
+![Captura de tela Cronograma Data Mundo 2024-05-16 121300](https://github.com/user-attachments/assets/4e30b330-5b7e-4cd2-8f30-1bd20da72cbe)
+
+
+https://github.com/user-attachments/assets/bc61300a-c5ef-421b-8793-fbaa2fe4aae2
