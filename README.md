@@ -18,7 +18,13 @@
 
 ## Estou usando este repositório para estudos, planejo desenvolver projetos para aprendizado, centralizar muitos materiais de estudos, fazer anotações e tornar isso um repositório de conhecimento acumulado.
 ---
+> Aqui tenho meu 1° projeto iniciado, sou um entusiasta de mercados financeiros e vou implementar os conhecimentos de desenvolver soluções via programação nos investimentos
 
 
-https://github.com/user-attachments/assets/da3e38e7-b3a0-41d4-9a38-3baa87c09d38
+
+https://github.com/user-attachments/assets/14c064fa-a670-4c52-89bc-f7301894fb3b
+
+
+
+
 
