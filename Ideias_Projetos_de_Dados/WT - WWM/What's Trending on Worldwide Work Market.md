@@ -10,4 +10,4 @@
 
 > I had this project idea yesterday, tuesday 01/10/2024, in October One of 2024.
 - While watching a livestream about Data Pipelines with Apache Airflow, the idea of this project suddenly appeared in my mind, now I want to try build it!
-- Beacause with a real situation I will build a solid knowledge while pursuing my Data Science degree,and this could also be a portfolio.
+- Beacause with a real situation I will build a solid knowledge while pursuing my Data Science degree, and this could also be a portfolio.
