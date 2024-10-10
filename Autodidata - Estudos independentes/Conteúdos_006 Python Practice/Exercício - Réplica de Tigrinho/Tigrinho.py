@@ -106,14 +106,14 @@ class CassaNiquel:
     
     def play(self, amount_bet, player: Player):
         result = self._get_final_result()
-        self._display(amount_bet, result)
+        #self._display(amount_bet, result)
         self._update_balance(amount_bet, result, player)
 
     @property
     def gain(self):
         return self.initial_balance + self.balance
 
-maquina1 = CassaNiquel(level=7)
+maquina1 = CassaNiquel(level=3)
 player1 = Player()
 for i in range(1, 100):
     maquina1.play(10, player1)
@@ -139,7 +139,7 @@ for i in range(0, DIAS):
 print(maquina1.balance)
 
 plt.figure()
-x = [i for i in range(1, DIAS+1)]
+x = [i for i in range(1, DIAS + 1)]
 y = saldo
 plt.plot(x, y)
 plt.grid(True)
