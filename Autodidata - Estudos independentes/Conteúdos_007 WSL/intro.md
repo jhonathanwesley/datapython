@@ -7,4 +7,7 @@
     -Ex.: code datapython/
 
 - Instalar pacotes / módulos / bibliotecas python como administrador:
-    - sudo apt install python3-nome_do_pacote
+- Com `SUDO APT`
+    - `sudo apt install python3-nome_do_pacote`
+- Com `PIPX`
+    - `sudo apt install pipx`
