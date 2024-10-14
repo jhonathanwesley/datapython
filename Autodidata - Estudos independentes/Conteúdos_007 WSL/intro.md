@@ -15,33 +15,42 @@
 ---
 ## Criar ambiente virtual Ubuntu
 - No terminal do WSL, execute o comando abaixo para garantir que o Python 3 está instalado:
-`sudo apt install python3-venv`
+
+ `sudo apt install python3-venv`
 
 - Se não estiver instalado, você pode instalá-lo com:
+
 `
 sudo apt update
 sudo apt install python3 python3-venv python3-pip
 `
 
 - Navegue até o diretório onde deseja criar o ambiente virtual:
+
 `cd /caminho/para/o/diretorio`
 
 - Crie o ambiente virtual com o seguinte comando:
+
 `python3 -m venv nome_do_ambiente`
 
 - Ative o ambiente com o seguinte comando:
+
 `source nome_do_ambiente/bin/activate`
 
 - Para **desativar / sair** do ambiente virtual, basta executar o comando:
+
 `deactivate`
 
 - **Para abrir no VS Code:**
-    - `code nome_do_ambiente`
+
+- `code nome_do_ambiente`
 
 ---
 ## Remover pastas / diretórios
 - Navegue até o diretório onde a pasta está localizada, se necessário, usando o comando cd. Por exemplo:
+
 `cd /caminho/para/a/pasta`
 
 - Para deletar a pasta, use o seguinte comando:
+
 `rm -rf nome-da-pasta`
