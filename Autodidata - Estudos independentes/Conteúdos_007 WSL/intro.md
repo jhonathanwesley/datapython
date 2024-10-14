@@ -11,3 +11,11 @@
     - `sudo apt install python3-nome_do_pacote`
 - Com `PIPX`
     - `sudo apt install pipx`
+---
+## Criar ambiente virtual Ubuntu
+
+- `sudo apt install python3-venv`
+
+- `python3 -m venv venv`
+
+- `source venv/bin/activate`
