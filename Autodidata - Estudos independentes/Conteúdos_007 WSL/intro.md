@@ -11,6 +11,7 @@
     - `sudo apt install python3-nome_do_pacote`
 - Com `PIPX`
     - `sudo apt install pipx`
+
 ---
 ## Criar ambiente virtual Ubuntu
 
@@ -22,3 +23,11 @@
 
 - **Para abrir no VS Code:**
     - `code nome_do_ambiente`
+
+---
+## Remover pastas / diretórios
+- Navegue até o diretório onde a pasta está localizada, se necessário, usando o comando cd. Por exemplo:
+`cd /caminho/para/a/pasta`
+
+- Para deletar a pasta, use o seguinte comando:
+`rm -rf nome-da-pasta`
