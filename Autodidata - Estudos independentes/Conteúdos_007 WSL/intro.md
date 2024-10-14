@@ -16,6 +16,9 @@
 
 - `sudo apt install python3-venv`
 
-- `python3 -m venv venv`
+- `python3 -m venv nome_do_ambiente`
 
-- `source venv/bin/activate`
+- `source nome_do_ambiente/bin/activate`
+
+- **Para abrir no VS Code:**
+    - `code nome_do_ambiente`
