@@ -77,3 +77,17 @@ projeto/
 - Para deletar a pasta, use o seguinte comando:
 
 `rm -rf nome-da-pasta`
+
+---
+## Arquivo requirements.txt
+
+- Se você quiser que outras pessoas (ou você mesmo em outro momento) possam instalar as mesmas dependências do ambiente, pode gerar um arquivo requirements.txt com todas as dependências instaladas no ambiente:
+
+`pip freeze > requirements.txt`
+
+- E para instalar essas dependências em outro ambiente (ou no mesmo, mas após deletá-lo e recriá-lo):
+
+`pip install -r requirements.txt`
+
+- O requirements.txt não é atualizado automaticamente.
+- Sempre que instalar novos pacotes ou atualizar pacotes existentes, você precisará rodar o comando `pip freeze > requirements.txt` para manter o arquivo atualizado com as versões corretas.
