@@ -1,4 +1,4 @@
-%pip install yfinance
+# pip install yfinance
 import yfinance as yf
 import matplotlib.pyplot as mplt
 
