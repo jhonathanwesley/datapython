@@ -46,6 +46,29 @@ sudo apt install python3 python3-venv python3-pip
 - `code nome_do_ambiente`
 
 ---
+### Estrutura recomendada de ambiente para cada projeto:
+
+projeto/
+
+│
+
+├── venv/               # Diretório do ambiente virtual (mantém pacotes instalados)
+
+│
+
+├── .git/               # Diretório do Git (informações de controle de versão)
+
+│
+
+├── requirements.txt    # Arquivo com as dependências do projeto
+
+├── main.py             # Código fonte
+
+├── notebooks/          # Diretório com Jupyter Notebooks
+
+└── README.md           # Arquivo de documentação
+
+---
 ## Remover pastas / diretórios
 - Navegue até o diretório onde a pasta está localizada, se necessário, usando o comando cd. Por exemplo:
 
