@@ -1,4 +1,36 @@
+---
 # Usar WSL 2
+---
+## Ativação WSL e instalação do Linux
+
+- Para ativar o WSL no windows:
+    - **Painel de Controle**
+    - **Programas**
+    - **Ativar ou Desativar recursos do Windows**
+        - Ativar as seguintes opções:
+            - _Plataforma de Máquina Virtual_
+            - _Plataforma do Hivervisor do Windows_
+            - _Subsistema do Windows para Linux_ (`WSL`)
+
+> Reiniciar a máquina
+
+- Após ativar o WSL, para verificar as distribuições linux disponíveis, abrir o terminal `Power Shell` ou `Windows Terminal` e digitar:
+
+`wsl -l --online`
+
+- Escolher a distro desejada, comando para instalar:
+
+`wsl --install Ubuntu`
+
+- Se a instalação for bem sucedida vai solicitar um nome de usuário e uma senha:
+
+> Defina seu usuário e senha
+
+`user`
+`password`
+`password`
+
+- Com isso é possível usar o terminal da distribuição instalada
 
 ### Abrindo o projeto no UBUNTU com o VS Code da forma correta
 > Abrir o terminal Ubuntu:
