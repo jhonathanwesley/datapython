@@ -31,14 +31,14 @@ def main(page: ft.Page):
                 ),
 
                 main_image := ft.Image(
-                    src='',
+                    src='https://i.postimg.cc/vTk712XH/BTCUSD-2024-10-18-11-15-03.png',
                 ),
 
                 options := ft.Row(
                     alignment=ft.MainAxisAlignment.CENTER,
                     controls=[
                         ft.Container(
-                            image_src='',
+                            image_src='https://i.postimg.cc/vTk712XH/BTCUSD-2024-10-18-11-15-03.png',
                             width=80,
                             height=80,
                             opacity=1,
@@ -46,7 +46,7 @@ def main(page: ft.Page):
                         ),
 
                         ft.Container(
-                            image_src='',
+                            image_src='https://i.postimg.cc/3J0FM7Jy/MGLU3-2024-10-18-11-15-07.png',
                             width=80,
                             height=80,
                             opacity=0.5,
@@ -54,7 +54,7 @@ def main(page: ft.Page):
                         ),
 
                         ft.Container(
-                            image_src='',
+                            image_src='https://i.postimg.cc/wxGQb3H8/SPX-2024-10-18-11-14-58.png',
                             width=80,
                             height=80,
                             opacity=0.5,
@@ -129,8 +129,8 @@ def main(page: ft.Page):
                             wrap=False,
                             controls=[
                                 ft.Icon(
-                                    name=ft.icons.FAVORITE,
-                                    color=ft.colors.RED_ACCENT if _ < 4 else ft.colors.WHITE,
+                                    name=ft.icons.STAR_BORDER,
+                                    color=ft.colors.AMBER if _ < 4 else ft.colors.WHITE,
                                 ) for _ in range(6)
                             ]
                         )
@@ -146,7 +146,7 @@ def main(page: ft.Page):
                     height=180,
                     tabs=[
                         ft.Tab(
-                            text='Vale beijos',
+                            text='BTCUSD',
                             content=ft.Container(
                                 padding=ft.padding.all(10),
                                 content=ft.Text(
@@ -158,7 +158,7 @@ def main(page: ft.Page):
                         ),
 
                         ft.Tab(
-                            text='Vale outras coisas',
+                            text='',
                             content=ft.Container(
                                 padding=ft.padding.all(10),
                                 content=ft.Text(
