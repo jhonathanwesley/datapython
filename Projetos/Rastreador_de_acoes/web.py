@@ -150,21 +150,33 @@ def main(page: ft.Page):
                             content=ft.Container(
                                 padding=ft.padding.all(10),
                                 content=ft.Text(
-                                    value='etc',
+                                    value='O Bitcoin é uma criptomoeda descentralizada baseada em tecnologia blockchain, criada em 2009. Ele permite transações digitais seguras e sem intermediários, utilizando um sistema de prova de trabalho (mineração) para validar e registrar as operações.',
                                     color=ft.colors.CYAN_ACCENT_700,
-                                    size=20,
+                                    size=12,
                                 )
                             )
                         ),
 
                         ft.Tab(
-                            text='',
+                            text='PETRO3',
                             content=ft.Container(
                                 padding=ft.padding.all(10),
                                 content=ft.Text(
-                                    value='etc',
+                                    value='A Petrobras é uma empresa estatal brasileira de petróleo e gás, fundada em 1953. É uma das maiores do setor, atuando na exploração, produção, refino e distribuição de petróleo, gás natural e derivados, com destaque para a exploração em águas profundas.',
                                     color=ft.colors.BLUE,
-                                    size=20,
+                                    size=12,
+                                )
+                            )
+                        ),
+
+                        ft.Tab(
+                            text='MAGALU3',
+                            content=ft.Container(
+                                padding=ft.padding.all(10),
+                                content=ft.Text(
+                                    value='A Magazine Luiza é uma varejista brasileira fundada em 1957, que atua no comércio de eletrônicos, eletrodomésticos, móveis e outros produtos. Nos últimos anos, se destacou pela forte presença digital, integrando lojas físicas e e-commerce, tornando-se uma referência em transformação digital no varejo brasileiro.',
+                                    color=ft.colors.BLUE,
+                                    size=11,
                                 )
                             )
                         )
@@ -176,25 +188,25 @@ def main(page: ft.Page):
                     controls=[
                         ft.Dropdown(
                             col=6,
-                            label='Use seu vale',
+                            label='Opere',
                             label_style=ft.TextStyle(color=ft.colors.WHITE, size=16),
                             border_color=ft.colors.WHITE,
                             border_width=0.5,
                             options=[
-                                ft.dropdown.Option(text='etc'),
-                                ft.dropdown.Option(text='etc'),
-                                ft.dropdown.Option(text='etc'),
+                                ft.dropdown.Option(text='BTCUSD'),
+                                ft.dropdown.Option(text='PETRO3'),
+                                ft.dropdown.Option(text='MAGALU3'),
                             ]
                         ),
 
                         ft.Dropdown(
                             col=6,
-                            label='Quantidade',
+                            label='Contratos',
                             label_style=ft.TextStyle(color=ft.colors.WHITE, size=16),
                             border_color=ft.colors.WHITE,
                             border_width=0.5,
                             options=[
-                                ft.dropdown.Option(text=f'{num} unid.') for num in range(1, 51)
+                                ft.dropdown.Option(text=f'{num} contratos') for num in range(1, 1151)
                             ]
                         ),
                     ]
@@ -204,14 +216,14 @@ def main(page: ft.Page):
 
                 ft.ElevatedButton(
                     width=900,
-                    text='Adicionar a Lista de Desejos',
+                    text='COMPRAR',
                     style=ft.ButtonStyle(
                         padding=ft.padding.all(20),
                         side={
                             ft.MaterialState.DEFAULT: ft.BorderSide(width=2, color=ft.colors.WHITE)
                         },
                         bgcolor={
-                            ft.MaterialState.HOVERED: ft.colors.WHITE
+                            ft.MaterialState.HOVERED: ft.colors.GREEN
                         },
                         color={
                             ft.MaterialState.DEFAULT: ft.colors.WHITE,
@@ -222,19 +234,18 @@ def main(page: ft.Page):
                 
                 ft.ElevatedButton(
                     width=900,
-                    text='Adicionar ao Carrinho',
+                    text='VENDER',
                     style=ft.ButtonStyle(
                         padding=ft.padding.all(20),
                         side={
-                            ft.MaterialState.DEFAULT: ft.BorderSide(width=2, color=ft.colors.RED)
+                            ft.MaterialState.DEFAULT: ft.BorderSide(width=2, color=ft.colors.WHITE)
                         },
                         bgcolor={
-                            ft.MaterialState.DEFAULT: ft.colors.GREEN,
-                            ft.MaterialState.HOVERED: ft.colors.YELLOW,
+                            ft.MaterialState.HOVERED: ft.colors.RED
                         },
                         color={
-                            ft.MaterialState.DEFAULT: ft.colors.RED_900,
-                            ft.MaterialState.HOVERED: ft.colors.SHADOW,
+                            ft.MaterialState.DEFAULT: ft.colors.WHITE,
+                            ft.MaterialState.HOVERED: ft.colors.BLACK,
                         }
                     )
                 )
@@ -263,3 +274,4 @@ def main(page: ft.Page):
 
 if __name__ == '__main__':
     ft.app(target=main)
+    
