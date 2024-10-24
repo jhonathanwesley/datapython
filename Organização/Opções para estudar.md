@@ -1,5 +1,6 @@
 ---
-# Lista de Sites, apps, playlists no youtube, entre outros conteúdos para estudo e desenvolvimento na área de dados.
+# Data Study Helper
+#### Lista de Sites, apps, playlists no youtube, entre outros conteúdos para estudo e desenvolvimento na área de dados.
 ---
 
 ## Sites
